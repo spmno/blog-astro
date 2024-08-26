@@ -25,6 +25,25 @@ const {
 
     <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
+    <script>
+      (function () {
+        // 创建一个新的script元素
+        const hm: HTMLScriptElement = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?ad1b35834d9c02181adcffc312010ff2';
+
+        // 获取页面上第一个script元素
+        const scripts = document.getElementsByTagName('script');
+        if (scripts.length > 0) {
+          // 获取第一个script元素的父节点，并在其前面插入新创建的script元素
+          const firstScript = scripts[0] as HTMLElement;
+          firstScript.parentNode?.insertBefore(hm, firstScript);
+        } else {
+          // 如果没有找到script元素，可以添加到<head>或<body>的末尾
+          const head = document.head || document.body;
+          head.appendChild(hm);
+        }
+      })();
+    </script>
   </head>
   <body class='bg-slate-900 text-gray-100'>
     <Navbar />
