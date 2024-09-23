@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: rust header 基本认证
 description: 使用基本认证发送 HTTP 请求
 pubDate: 2024-09-20T00:00:00Z
-imgSrc: '/assets/images/image-post4.jepg'
+imgSrc: '/assets/images/image-post4.jpeg'
 imgAlt: 'Vscode'
 ---
 

@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: 在Ubuntu下安装VsCode
 description: snap商店带的vscode，不好用。需要加一下microsoft的apt list去安装
 pubDate: 2024-09-15T00:00:00Z
-imgSrc: '/assets/images/image-post4.jepg'
+imgSrc: '/assets/images/image-post4.jpeg'
 imgAlt: 'Vscode'
 ---
 
