@@ -31,6 +31,22 @@ const ProjectList = () => (
           </>
         }
       />
+    <Project
+        name="rust sdk for tongyi llm api"
+        description="通义VL的rust sdk封装"
+        link="https://github.com/spmno/tongyi-vl-rust-sdk"
+        img={{
+          src: '/assets/images/project-web-design.png',
+          alt: 'Project Web Design',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Rust</Tags>
+            <Tags color={ColorTags.LIME}>volcengine</Tags>
+            <Tags color={ColorTags.SKY}>LLM</Tags>
+          </>
+        }
+      />
     </div>
   </Section>
 );
